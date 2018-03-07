@@ -1,2 +1,2 @@
 # Wordpress
-WordPress 4.9.4 PHP-FPM 7.2 Dockerfile with Redis
+Latest WordPress/PHP7.2-FPM Docker image w Redis extensions
