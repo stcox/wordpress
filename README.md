@@ -1,5 +1,5 @@
 # WordPress for Kubernetes
-WordPress/PHP-FPM Docker image with Redis extensions
+**WordPress/PHP-FPM Docker image with Redis extensions**
 
 This WordPress image was designed for use, and configured, with this [WordPress](https://github.com/stcox/charts/tree/master/wordpress) [Helm Chart](https://helm.sh/).
 
