@@ -1,4 +1,4 @@
-# WordPress for Kubernetes
+# Kubernetes WordPress Docker Image
 **WordPress/PHP-FPM Docker image with Redis extensions**
 
 This WordPress image was designed for [Kubernetes WordPress](https://github.com/stcox/k8s-wordpress).
