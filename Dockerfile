@@ -18,5 +18,6 @@ COPY wp-su.sh /bin/wp
 RUN chmod +x /bin/wp-cli.phar
 
 COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 ENTRYPOINT ["docker-entrypoint.sh"]
 CMD ["php-fpm"]
