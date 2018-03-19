@@ -170,6 +170,13 @@ EOPHP
 		set_config 'DB_USER' "$WORDPRESS_DB_USER"
 		set_config 'DB_PASSWORD' "$WORDPRESS_DB_PASSWORD"
 		set_config 'DB_NAME' "$WORDPRESS_DB_NAME"
+		set_config 'WP_CACHE_KEY_SALT' "$WP_CACHE_KEY_SALT"
+		set_config 'WP_REDIS_CLIENT' "$WP_REDIS_CLIENT"
+		set_config 'WP_REDIS_SCHEME' "$WP_REDIS_SCHEME"
+		set_config 'WP_REDIS_HOST' "$WP_REDIS_HOST"
+		set_config 'WP_REDIS_PORT' "$WP_REDIS_PORT"
+		set_config 'WP_MEMORY_LIMIT' "$WP_MEMORY_LIMIT"
+		set_config 'WP_MAX_MEMORY_LIMIT' "$WP_MAX_MEMORY_LIMIT"
 
 		for unique in "${uniqueEnvs[@]}"; do
 			uniqVar="WORDPRESS_$unique"
