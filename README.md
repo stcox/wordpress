@@ -1,7 +1,7 @@
-# Kubernetes WordPress Docker Image
-**WordPress/PHP-FPM Docker image with Redis extensions**
+# GKE WordPress Docker Image
+**WordPress - PHP-FPM Docker image with Redis extensions**
 
-This WordPress image was designed for [Kubernetes WordPress](https://github.com/stcox/k8s-wordpress).
+This WordPress image was designed for [GKE WordPress](https://github.com/stcox/gke-wordpress).
 
-To use this image, checkout the [Kubernetes WordPress README.md](https://github.com/stcox/k8s-wordpress/blob/master/README.md)
+To use this image, checkout the [GKE WordPress README.md](https://github.com/stcox/gke-wordpress/blob/master/README.md)
 
